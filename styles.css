@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+    font-size: medium;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input-container {
+    margin: 10px 0;
+    text-align: left;
+    width: 350px;
+    background: white;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.remember {
+    color: #000000;
+    font-size: smaller;
+    position: static;
+    text-align: left;
+}
+
+
+button {
+    background: #05a81a;
+    color: #fff;
+    border: none;
+    width: 380px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    font-weight: lighter;
+    color: #818181;
+}
+
+.social-login a {
+    display: inline-block;
+    color: #faf7f7;
+    font-weight: bold;
+    width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.facebook-login {
+    background: #352ad8;
+
+}
+
+.google-login {
+    background: #db0b0b;
+}
+
+.linkedin-login {
+    background: #0d56a8;
+}
+
+.github-login {
+    background: #000000;
+}
+
+h4{
+    color: #9c9c9c;
+    font-size: smaller;
+    text-align: right;
+}
+
+h3 {
+    color: #0eb324;
+    font-size: smaller;
+}
+
+
+h3:hover{
+    text-decoration: underline;
+}
+
+
+button:hover {
+    background: #10d11a;
+} 
+
